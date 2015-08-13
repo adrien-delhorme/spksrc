@@ -6,7 +6,7 @@ PKG_DIST_NAME = $(PKG_NAME)-$(PKG_VERS).$(PKG_EXT)
 PKG_DIST_SITE = https://launchpad.net/$(PKG_NAME)/$(PKG_SHORT_VERS)-series/$(PKG_VERS)/+download
 PKG_DIR = $(PKG_NAME)-$(PKG_VERS)
 
-DEPENDS = cross/librsync cross/netifaces cross/wrapt
+DEPENDS = cross/boto cross/librsync cross/netifaces cross/wrapt
 
 HOMEPAGE = http://duplicity.nongnu.org/
 COMMENT  = Encrypted bandwidth-efficient backup using the rsync algorithm
